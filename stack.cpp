@@ -17,7 +17,7 @@ class Stack{
 
     void push(int val){
         if(top == size-1){ 
-            //to check stacxk overflow(stack is already full, agar insert karoge to overflow hojayega)
+            //to check stack overflow(stack is already full, agar insert karoge to overflow hojayega)
             cout << "Stack Overflow" <<endl;
         } 
         else{
